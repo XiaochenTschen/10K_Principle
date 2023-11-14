@@ -1,0 +1,3 @@
+F:/Learn/Git/10K_Principle/10K_Principle/C++/Basic/CMakeTest/build/CMakeFiles/edit_cache.dir
+F:/Learn/Git/10K_Principle/10K_Principle/C++/Basic/CMakeTest/build/CMakeFiles/my_program.dir
+F:/Learn/Git/10K_Principle/10K_Principle/C++/Basic/CMakeTest/build/CMakeFiles/rebuild_cache.dir

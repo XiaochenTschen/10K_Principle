@@ -1,0 +1,12 @@
+[
+{
+  "directory": "F:/Learn/Git/10K_Principle/10K_Principle/C++/Basic/CMakeTest/build",
+  "command": "C:\\PROGRA~2\\MINGW-~1\\I686-8~1.0-P\\mingw32\\bin\\G__~1.EXE  @CMakeFiles/my_program.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\my_program.dir\\main.cpp.obj -c F:\\Learn\\Git\\10K_Principle\\10K_Principle\\C++\\Basic\\CMakeTest\\main.cpp",
+  "file": "F:/Learn/Git/10K_Principle/10K_Principle/C++/Basic/CMakeTest/main.cpp"
+},
+{
+  "directory": "F:/Learn/Git/10K_Principle/10K_Principle/C++/Basic/CMakeTest/build",
+  "command": "C:\\PROGRA~2\\MINGW-~1\\I686-8~1.0-P\\mingw32\\bin\\G__~1.EXE  @CMakeFiles/my_program.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\my_program.dir\\src\\func.cpp.obj -c F:\\Learn\\Git\\10K_Principle\\10K_Principle\\C++\\Basic\\CMakeTest\\src\\func.cpp",
+  "file": "F:/Learn/Git/10K_Principle/10K_Principle/C++/Basic/CMakeTest/src/func.cpp"
+}
+]
