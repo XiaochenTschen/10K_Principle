@@ -1,6 +1,6 @@
 from pathlib import Path
 from openai import OpenAI
-client = OpenAI(api_key='sk-proj-AfB9WRqErUOAOXLUjzupT3BlbkFJ67hsSD9SXE8y8jgoFktZ')
+##client = OpenAI(api_key='')
 
 speech_file_path = Path(__file__).parent / "audio.mp3"
 with open('text.txt', 'r', encoding='utf-8') as file:
