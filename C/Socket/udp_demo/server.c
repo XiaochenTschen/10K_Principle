@@ -2,7 +2,7 @@
 #include <string.h>
 #include <arpa/inet.h> /* usage */
 #include <unistd.h>
-#include <fcntl.h> /* usage */
+#include <fcntl.h> /* file control */
 #include <errno.h>
 
 #define PORT 8080

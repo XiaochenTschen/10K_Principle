@@ -33,7 +33,7 @@ void flush_socket_recv_buffer(int sockfd) {
             }
         }
         else if (byte_receive == 0) {
-            /* should not happen for UDP*/
+            /* should not happen for UDP */
             break;
         }
         else {
