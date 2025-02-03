@@ -1,0 +1,190 @@
+<!-- 网站主页是index开头的文件 -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <mate charset="UDF-8"/>
+        <meta name="description" content="test websit" />
+        <meta name="author" content="chen"/>
+        <meta name="keywords" content="test html"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Home Page</title>
+    </head>
+    <body>
+        <h1>Hello HTML</h1>
+        <h2>Hello HTML</h2>
+        <h3>Hello HTML</h3>
+        <h4>Hello HTML</h4>
+        <h5>Hello HTML</h5>
+        <h6>Hello HTML</h6>
+        <p>Hello HTML</p>
+        <br/> <!--换行-->
+        <hr/> <!--划线-->
+        <p>Hello <b>HTML</b></p>
+        <p>Hello <i><b>HTML</b></i></p>
+
+        <!--链接-->
+        <a href="https://google.com">GOOGLE</a>
+        <br>
+        <a href="page1.html">Page 1</a>
+        <br>
+        <a href="_pages/page2.html">Page 2</a>
+        <br>
+        <a href="photo.png">Photo</a>
+        <br>
+        <!--嵌入网络来源的图片-->
+        <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRttVvhXl1Rm-wfUvuqfkcWzfZzH2YjSqc6wxnzmfDQvN9gmxxgPdMeL4xqCfAiZ7LqujMu2Iq75x6SJY86RivVrw"/>
+        <br/>
+        <!--嵌入本地图片-->
+        <img src="photo.png"/>
+        <br/>
+        <!--嵌入本地图片,并指定大小-->
+        <img src="photo.png" width="150" height="80"/>
+        <br/>
+        <!--嵌入本地图片，给定宽度并以此进行等比缩放-->
+        <img src="photo.png" width="100"/>
+        <br/>
+        <!--嵌入本地图片， 给定高度并以此进行等比缩放-->
+        <img src="photo.png" height="50"/>
+        <br/>
+        <!--嵌入视频-->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/CLUPkcLQm64?si=hSd5fSDr8yCRBOxW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <!--列表-->
+        <ul>
+            <li>google</li>
+            <li>youtube</li>
+        </ul>
+        <ol>
+            <li>google</li>
+            <li>youtube</li>
+        </ol>
+        <ol type="A">
+            <li>google</li>
+            <li>youtube</li>
+        </ol>
+        <ol type="i">
+            <li>google</li>
+            <li>youtube</li>
+        </ol>
+        <!--表格-->
+        <table>
+            <tr>
+                <td>年</td>
+                <td>月</td>
+                <td>日</td>
+            </tr>
+            <tr>
+                <td>29</td>
+                <td>04</td>
+                <td>1992</td>
+            </tr>
+        </table>
+        <table width="400">
+            <tr>
+                <td>年</td>
+                <td>月</td>
+                <td>日</td>
+            </tr>
+            <tr>
+                <td>29</td>
+                <td>04</td>
+                <td>1992</td>
+            </tr>
+        </table>
+        <!--div容器-->
+        <div style="color: red;">
+            <ol type="i">
+                <li>google</li>
+                <li>youtube</li>
+            </ol>
+            <table width="400">
+                <tr>
+                    <td>年</td>
+                    <td>月</td>
+                    <td>日</td>
+                </tr>
+                <tr>
+                    <td>29</td>
+                    <td>04</td>
+                    <td>1992</td>
+                </tr>
+            </table>
+        </div>
+        <div style="color:green">
+            <ol type="i">
+                <li>google</li>
+                <li>youtube</li>
+            </ol>
+            <table width="400">
+                <tr>
+                    <td>年</td>
+                    <td>月</td>
+                    <td>日</td>
+                </tr>
+                <tr>
+                    <td>29</td>
+                    <td>04</td>
+                    <td>1992</td>
+                </tr>
+            </table>
+        </div>
+        <hr/>
+        <!--span容器-->
+        <span style="color: red;">
+            <ol type="i">
+                <li>google</li>
+                <li>youtube</li>
+            </ol>
+            <table width="400">
+                <tr>
+                    <td>年</td>
+                    <td>月</td>
+                    <td>日</td>
+                </tr>
+                <tr>
+                    <td>29</td>
+                    <td>04</td>
+                    <td>1992</td>
+                </tr>
+            </table>
+        </span>
+        <span style="color:green;">
+            <ol type="i">
+                <li>google</li>
+                <li>youtube</li>
+            </ol>
+            <table width="400">
+                <tr>
+                    <td>年</td>
+                    <td>月</td>
+                    <td>日</td>
+                </tr>
+                <tr>
+                    <td>29</td>
+                    <td>04</td>
+                    <td>1992</td>
+                </tr>
+            </table>
+        </span>
+        <hr/>
+        <div>div1</div>
+        <div>div2</div>
+        <span>span1</span>
+        <span>span2</span>
+        <br/><br/>
+
+        <!--输入标签-->
+        <input type="text" placeholder="账号"/>
+        <br/><br/>
+        <input type="password" placeholder="密码"/>
+        <br/><br/>
+        <input type="date"/>
+        <br/><br/>
+        <input type="range"/>
+        <br/><br/>
+        <input type="file"/>
+        <br/><br/>
+        <input type="checkbox"/>
+        <br/><br/>
+        <textarea></textarea>
+    </body>
+</html>
