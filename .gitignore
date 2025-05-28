@@ -1,4 +1,6 @@
 **/*.exe
+**/main
 **/.vscode/
 **/dest/
 **/node_modules/
+**/target
