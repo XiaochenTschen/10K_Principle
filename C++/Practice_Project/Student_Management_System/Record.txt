@@ -1,5 +1,0 @@
-Name|ID|Score
-Chen|0110|99
-change this line
-Luy|0111|97
-Si_ |0112|96
